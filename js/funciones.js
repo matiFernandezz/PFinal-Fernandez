@@ -1,4 +1,4 @@
-
+/*
 const productos = [
     {id:1, nombre:"AMD Ryzen 5 5600G", imagen: "https://app.contabilium.com/files/explorer/20302/Productos-Servicios/concepto-6214868.jpeg" , categoria:"Procesador", precio:201530},
     {id:2, nombre:"Intel Core i7 12700F",imagen: "https://fullh4rd.com.ar/img/productos/1/micro-intel-core-i7-12700-cvideo-ccooler--barato-q-12700f-0.jpg" , categoria:"Procesador", precio:432999},
@@ -11,7 +11,7 @@ const productos = [
     {id:9, nombre:"Mouse Redragon", imagen: "https://s3-sa-east-1.amazonaws.com/saasargentina/js5YAR90pHrt0Vvo5kCB/imagen" ,categoria:"Periferico", precio: 25740}
     ]
 
-
+*/
 //console.log(productos);
 
 const guardarProductosLS = (productos)=>{
@@ -153,19 +153,16 @@ const renderBotonCarrito = () => {
 }
 
 
-guardarProductosLS(productos);
+//guardarProductosLS(productos);
 
-/*
+
  //Con ruta relativa, consuminedo el archivo .json
- fetch('./js/productos.json') 
+fetch('./js/productos.json') 
 .then(respuesta => respuesta.json())
 .then(productos => {
    guardarProductosLS(productos);
 })
-.catch(error => {
-    ``
-})
-*/
+
 
 
 
