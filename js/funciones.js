@@ -157,10 +157,13 @@ const renderBotonCarrito = () => {
 
 
  //Con ruta relativa, consuminedo el archivo .json
- fetch('./productos.json') 
+ fetch('./js/productos.json') 
 .then(respuesta => respuesta.json())
 .then(productos => {
    guardarProductosLS(productos);
+})
+.catch(error => {
+    ``
 })
 
 
